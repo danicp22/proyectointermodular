@@ -24,12 +24,15 @@ def raiz():
         <main>
         '''
         ################## Este es otro bloque 
-    cadena += '''
+    archivo = open("blog.json",'r')
+    contenido = json.load(archivo)
+    for linea in contenido:
+        cadena += '''
             <article>
-                <h3>Titulo del articulo</h3>
-                <time>16-10-2025</time>
-                <p>Daniel Calve Pardo</p>
-                <p>Este es el contenido del articulo ficticio</p>
+                <h3>'''+linea['titulo']+'''</h3>
+                <time>'''+linea['fecha']+'''</time>
+                <p>'''+linea['autor']+'''</p>
+                <p>'''+linea['contenido']+'''</p>
             </article>
             '''
             ################ Este es otro bloque
