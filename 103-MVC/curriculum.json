@@ -1,0 +1,12 @@
+{
+    "datos personales":{
+        "nombre":"Daniel",
+        "apellidos":"Calve Pardo",
+        "email":"danielcalvepardo@hotmail.com",
+        "telefono":"696321225",
+        "direccion":"La calle de dani",
+        "codigopostal":"46007 Valencia"
+    },
+    "experiencia":"",
+    "formacion":""
+}
