@@ -5,7 +5,7 @@
 
 A continuación, se detallan los pasos para construir la aplicación:
 
-1.  nstalación de Flask
+1.  Instalación de Flask
     Asegúrate de tener Flask instalado. Si no lo tienes, ejecuta:
     ```
     pip install flask
