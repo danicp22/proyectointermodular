@@ -1,0 +1,21 @@
+{
+    "datos_personales":{
+        "nombre":"Daniel",
+        "apellidos":"Calve Pardo",
+        "correo":"dani@example.com"
+    },
+    "experiencias_laborales":[
+        {
+            "titulo":"Director",
+            "empresa":"Google",
+            "timespan":"2023-presente",
+            "descripcion":"Director ejecutivo en Google"
+        },
+        {
+            "titulo":"Militar",
+            "empresa":"Gobierno de españa",
+            "timespan":"2020-2022",
+            "descripcion":"Militar destinado a guerras"
+        }
+    ]
+}
