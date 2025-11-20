@@ -3,9 +3,6 @@
 # Este programa esta conectado a una base de datos creada previamente, y a un archivo python, en el archivo python se añade la informacion, la cual se guarda en la base de datos, y este programa lo que hace es que lo muestra en la web.
 
 
-
-
-
 import mysql.connector                                # Importo el conector a base de datos
 from flask import Flask                               # Importo la libreria flask
 
