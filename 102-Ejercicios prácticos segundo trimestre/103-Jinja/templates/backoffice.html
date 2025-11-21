@@ -29,138 +29,19 @@
             <table>
                 <thead>
                     <tr>
-                        {% for columna in mis_columnas:%}
+                        {% for columna in mis_columnas%}
                             <th>{{columna}}</th>
                         {% endfor %}
                     </tr>
                 </thead>
                 <tbody>
+                    {% for fila in mi_contenido_tabla:%}
                     <tr>
-                        <td>Dani</td>
-                        <td>Calve</td>
-                        <td>dani@exapmple.com</td>
-                        <td>Calle de dani</td>
+                        {% for dato in fila:%}
+                            <td>{{dato}}</td>
+                        {% endfor %}
                     </tr>
-                    <tr>
-                        <td>Laura</td>
-                        <td>Martínez</td>
-                        <td>laura@example.com</td>
-                        <td>Calle Sol 12</td>
-                    </tr>
-                    <tr>
-                        <td>Carlos</td>
-                        <td>López</td>
-                        <td>carlos@example.com</td>
-                        <td>Avenida Central 45</td>
-                    </tr>
-                    <tr>
-                        <td>Ana</td>
-                        <td>Gómez</td>
-                        <td>ana@example.com</td>
-                        <td>Calle Luna 3</td>
-                    </tr>
-                    <tr>
-                        <td>Javier</td>
-                        <td>Ruiz</td>
-                        <td>javi@example.com</td>
-                        <td>Paseo del Río 22</td>
-                    </tr>
-                    <tr>
-                        <td>Sara</td>
-                        <td>Navas</td>
-                        <td>sara@example.com</td>
-                        <td>Calle Viento 8</td>
-                    </tr>
-                    <tr>
-                        <td>Mario</td>
-                        <td>Santos</td>
-                        <td>mario@example.com</td>
-                        <td>Camino Verde 10</td>
-                    </tr>
-                    <tr>
-                        <td>Paula</td>
-                        <td>Hidalgo</td>
-                        <td>paula@example.com</td>
-                        <td>Plaza Mayor 1</td>
-                    </tr>
-                    <tr>
-                        <td>Hugo</td>
-                        <td>Romero</td>
-                        <td>hugo@example.com</td>
-                        <td>Calle Norte 19</td>
-                    </tr>
-                    <tr>
-                        <td>Elena</td>
-                        <td>Bustos</td>
-                        <td>elena@example.com</td>
-                        <td>Calle Sur 7</td>
-                    </tr>
-                    <tr>
-                        <td>Andrés</td>
-                        <td>Gil</td>
-                        <td>andres@example.com</td>
-                        <td>Calle del Lago 14</td>
-                    </tr>
-                    <tr>
-                        <td>Lucía</td>
-                        <td>Pérez</td>
-                        <td>lucia@example.com</td>
-                        <td>Avenida Mar 20</td>
-                    </tr>
-                    <tr>
-                        <td>David</td>
-                        <td>Castro</td>
-                        <td>david@example.com</td>
-                        <td>Calle Olivo 6</td>
-                    </tr>
-                    <tr>
-                        <td>Claudia</td>
-                        <td>Rey</td>
-                        <td>claudia@example.com</td>
-                        <td>Calle Jardín 18</td>
-                    </tr>
-                    <tr>
-                        <td>Iván</td>
-                        <td>Moreno</td>
-                        <td>ivan@example.com</td>
-                        <td>Camino Blanco 11</td>
-                    </tr>
-                    <tr>
-                        <td>Nuria</td>
-                        <td>Campos</td>
-                        <td>nuria@example.com</td>
-                        <td>Calle Espejo 2</td>
-                    </tr>
-                    <tr>
-                        <td>Óscar</td>
-                        <td>Pastor</td>
-                        <td>oscar@example.com</td>
-                        <td>Calle Verde 16</td>
-                    </tr>
-                    <tr>
-                        <td>Alba</td>
-                        <td>Navarro</td>
-                        <td>alba@example.com</td>
-                        <td>Avenida del Parque 30</td>
-                    </tr>
-                    <tr>
-                        <td>Rafael</td>
-                        <td>Solís</td>
-                        <td>rafa@example.com</td>
-                        <td>Calle Trébol 9</td>
-                    </tr>
-                    <tr>
-                        <td>Patricia</td>
-                        <td>Durán</td>
-                        <td>patricia@example.com</td>
-                        <td>Paseo del Prado 5</td>
-                    </tr>
-                    <tr>
-                        <td>Tomás</td>
-                        <td>Vega</td>
-                        <td>tomas@example.com</td>
-                        <td>Calle Estrella 13</td>
-                    </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </section>
