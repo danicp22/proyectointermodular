@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microformulario</title>
+    <style>
+        html,body{background:indigo;display:flex;justify-content:center;align-items:center;min-height:100vh;}
+        form{width:300px;height:300px;padding:20px;background:white;display:flex;flex-direction:column;justify-content:center;gap:20px;}
+        input{padding:20px;}
+    </style>
+</head>
+<body>
+    <form action="/envio" method="GET">
+        <input type="text" name="nombre" placeholder="Introduce tu nombre">
+        <input type="text" name="apellidos" placeholder="Introduce tus apellidos">
+        <input type="submit">
+    </form>
+
+</body>
+</html>
