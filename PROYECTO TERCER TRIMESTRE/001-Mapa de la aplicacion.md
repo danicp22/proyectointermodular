@@ -1,0 +1,5 @@
+Mi proyecto quiero que sea una pagina web de una tienda de boxeo online.
+
+Mi pagina web quiero que tenga una pagina principal, que muestre algunos productos destacados: En la pagina principal necesitare añadir un mapa para saber donde localizarnos. Me gustaria añadir en el footer, un apartado de "Trabaja con nosotros", para permitir a la gente que nos contacte para trabajar en nuestra tienda fisica.
+
+Quiero que tenga en el header, los siguientes apartados, "Tienda", en la cual, cuando entres, aparezcan todas las categorias de productos que hayan, una vez que elijas la categoria se mostraran todos los productos que hay en esa categoria, con sus respectivos precios y descripciones; "Contactanos", un apartado de contacto es muy importante en una tienda online; "Carrito", aqui se mostraran los productos que se hayan añadido al carrito, y se podra ir al pago; "Mi cuenta", este apartado tambien es muy importante para que el usuario pueda ingresar en su cuenta.
